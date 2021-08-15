@@ -13,6 +13,11 @@ export default {
         name: 'description',
         content: 'Badan Pertanahan Nasional Kota Bandung',
       },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'Badan Pertanahan Nasional - Kota Bandung',
+      },
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
