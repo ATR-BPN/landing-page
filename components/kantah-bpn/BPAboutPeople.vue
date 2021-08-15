@@ -2,14 +2,14 @@
   <section id="about-bpn-people">
     <div class="container">
       <div class="row">
-        <div class="col text-center">
+        <div class="col-sm-12 col-md-6 col-lg-6 text-center">
           <img
             class="my-4 img-fluid"
             src="~/assets/img/organisasi.png"
             alt=""
           />
         </div>
-        <div class="col">
+        <div class="col-sm-12 col-md-6 col-lg-6">
           <div class="my-2">
             <h3 class="text-center my-4">
               MAKLUMAT/JANJI LAYANAN KANTOR PERTANAHAN KOTA BANDUNG

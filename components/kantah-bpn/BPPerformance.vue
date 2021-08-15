@@ -1,7 +1,7 @@
 <template>
   <section id="achievment">
     <div class="container text-center">
-      <img src="~/assets/img/achievments.png" alt="" />
+      <img src="~/assets/img/achievments.png" class="img-fluid" alt="" />
     </div>
   </section>
 </template>

@@ -16,7 +16,7 @@
       <b-carousel-slide v-for="image in images" :key="image">
         <template #img>
           <img
-            class="d-block w-100"
+            class="d-block img-fluid w-100"
             width="1024"
             height="640"
             :src="image"
