@@ -18,6 +18,15 @@ export default {
         property: 'og:title',
         content: 'Badan Pertanahan Nasional - Kota Bandung',
       },
+      {
+        hid: 'og:site_name',
+        property: 'og:site_name',
+        content: 'Badan Pertanahan Nasional - Kota Bandung',
+      },
+      {
+        hid: 'apple-mobile-web-app-title',
+        content: 'Badan Pertanahan Nasional - Kota Bandung',
+      },
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],

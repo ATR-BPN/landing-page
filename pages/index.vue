@@ -12,6 +12,8 @@
 
     <BPPerformance />
 
+    <BPActionLink />
+
     <BPContact />
 
     <BPFooter />
@@ -26,6 +28,7 @@ import BPFooter from '../components/kantah-bpn/BPFooter.vue'
 import BPContact from '../components/kantah-bpn/BPContact.vue'
 import BPAboutPeople from '../components/kantah-bpn/BPAboutPeople.vue'
 import BPPerformance from '../components/kantah-bpn/BPPerformance.vue'
+import BPActionLink from '../components/kantah-bpn/BPActionLink.vue'
 
 export default {
   components: {
@@ -36,6 +39,7 @@ export default {
     BPContact,
     BPAboutPeople,
     BPPerformance,
+    BPActionLink,
   },
   data: () => {
     return {}

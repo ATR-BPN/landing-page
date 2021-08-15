@@ -1,29 +1,29 @@
 <template>
   <header class="masthead">
-    <b-carousel
-      id="carousel-1"
-      v-model="slide"
-      :interval="3500"
-      controls
-      indicators
-      img-width="1024"
-      img-height="640"
-      style="text-shadow: 1px 1px 2px #333"
-      @sliding-start="onSlideStart"
-      @sliding-end="onSlideEnd"
-    >
-      <!-- Text slides with image -->
-      <b-carousel-slide v-for="image in images" :key="image">
-        <template #img>
-          <img
-            class="d-block img-fluid w-100"
-            width="1024"
-            height="640"
-            :src="image"
-            alt="image slot"
-          /> </template
-      ></b-carousel-slide>
-    </b-carousel>
+    <div class="container mt-4 h-80">
+      <b-carousel
+        id="carousel-1"
+        v-model="slide"
+        :interval="3500"
+        controls
+        indicators
+        style="text-shadow: 1px 1px 2px #333"
+        @sliding-start="onSlideStart"
+        @sliding-end="onSlideEnd"
+      >
+        <b-carousel-slide v-for="image in images" :key="image" :img-src="image">
+          <template #img>
+            <img
+              class="d-block img-fluid w-100"
+              width="1024"
+              height="480"
+              :src="image"
+              alt="image slot"
+            />
+          </template>
+        </b-carousel-slide>
+      </b-carousel>
+    </div>
   </header>
 </template>
 
@@ -51,3 +51,9 @@ export default {
   },
 }
 </script>
+
+<style lang="scss" scoped>
+.carousel-inner {
+  border-radius: 8px;
+}
+</style>
