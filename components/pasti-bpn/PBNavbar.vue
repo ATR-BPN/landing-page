@@ -15,10 +15,14 @@
       <b-collapse id="nav-collapse" is-nav>
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
-          <b-nav-item href="#integrity" class="mx-2">Tentang BPN</b-nav-item>
+          <b-nav-item href="#integrity" class="mx-2">Tentang PASTI</b-nav-item>
           <b-nav-item href="#features" class="mx-2">Pelayanan</b-nav-item>
 
-          <b-button class="rounded-pill px-4 mb-2 mb-lg-0">
+          <b-button
+            class="rounded-pill px-4 mb-2 mb-lg-0"
+            variant="primary"
+            href="https://pastibpn.id/"
+          >
             <span>Login</span>
           </b-button>
         </b-navbar-nav>

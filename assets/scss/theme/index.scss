@@ -25,8 +25,8 @@
   --bs-white: #fff;
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
-  --bs-primary: #2937f0;
-  --bs-secondary: #9f1ae2;
+  --bs-primary: #003E69;
+  --bs-secondary: #FEC32F;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
@@ -3200,8 +3200,8 @@ fieldset:disabled .btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #2937f0;
-  border-color: #2937f0;
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
 }
 
 .btn-primary:hover {
@@ -11780,7 +11780,7 @@ html {
 }
 
 .bg-gradient-primary-to-secondary {
-  background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
+  background: linear-gradient(180deg, #003E69, #FEC32F) !important;
 }
 
 .font-alt {
@@ -11788,7 +11788,7 @@ html {
 }
 
 .text-gradient {
-  background: -webkit-linear-gradient(#2937f0, #9f1ae2);
+  background: -webkit-linear-gradient(#FEC32F, #003E69);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -11939,11 +11939,11 @@ section.cta:before {
 }
 
 .features-device-mockup .circle .gradient-start-color {
-  stop-color: #2937f0;
+  stop-color: #003E69;
 }
 
 .features-device-mockup .circle .gradient-end-color {
-  stop-color: #9f1ae2;
+  stop-color: #FEC32F;
 }
 
 .features-device-mockup .shape-1 {
@@ -11951,7 +11951,7 @@ section.cta:before {
   height: 1rem;
   width: 1rem;
   transform: rotate(10deg);
-  fill: #2937f0;
+  fill: #003E69;
   top: 15%;
   right: 10%;
 }
@@ -11960,7 +11960,7 @@ section.cta:before {
   position: absolute;
   height: 0.75rem;
   width: 0.75rem;
-  fill: #2937f0;
+  fill: #003E69;
   bottom: 15%;
   left: 10%;
 }
@@ -12055,7 +12055,7 @@ footer a:focus {
 
 .masthead {
   background-color: #f8f9fa;
-  padding-top: 9.5rem;
+  padding-top: 6.6rem;
   padding-bottom: 5rem;
 }
 
@@ -12074,11 +12074,11 @@ footer a:focus {
 }
 
 .masthead .masthead-device-mockup .circle .gradient-start-color {
-  stop-color: #2937f0;
+  stop-color: #003E69;
 }
 
 .masthead .masthead-device-mockup .circle .gradient-end-color {
-  stop-color: #9f1ae2;
+  stop-color: #FEC32F;
 }
 
 .masthead .masthead-device-mockup .shape-1 {
@@ -12086,7 +12086,7 @@ footer a:focus {
   height: 1rem;
   width: 1rem;
   transform: rotate(-10deg);
-  fill: #2937f0;
+  fill: #003E69;
   bottom: 15%;
   left: 10%;
 }
@@ -12095,7 +12095,7 @@ footer a:focus {
   position: absolute;
   height: 0.75rem;
   width: 0.75rem;
-  fill: #2937f0;
+  fill: #003E69;
   top: 15%;
   right: 10%;
 }

@@ -5,12 +5,17 @@
         <h2 class="text-white display-1 lh-1 mb-2">
           Curhat Terkait Pelayanan ?
         </h2>
-        <p class="text-white display-6 lh-1 mb-4">
+        <p class="text-white display-6 mb-4">
           Warga kota Bandung dapat pengaduan pelayanan kami melalui portal
-          <a class="text-white" href="http://www.curhatbpn-kotabandung.id/">
-            Curhat BPN
-          </a>
         </p>
+        <a
+          class="btn btn-outline-light py-3 px-4 rounded-pill"
+          href="http://www.curhatbpn-kotabandung.id/"
+          target="_blank"
+        >
+          <b-icon icon="chat" class="mr-3"></b-icon>
+          Curhat BPN
+        </a>
         <a
           class="btn btn-outline-light py-3 px-4 rounded-pill"
           href="https://web.whatsapp.com/send?phone=6282218761876&text=Halo Admin, Saya ada pertanyaan terkait Pelayanan Pertanahan di Kota Bandung"
